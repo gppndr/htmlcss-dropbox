@@ -101,10 +101,6 @@ header ul li{
 
 /* #region hero */
 
-.hero{
-    padding: 2rem 0;
-}
-
 .bg_secodary{
     background: var(--var-babyblue)
 }
