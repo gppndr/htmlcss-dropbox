@@ -18,6 +18,9 @@
 /* #endregion */
 
 /* #region utilities */
+img{
+    width: 100%;
+}
 .hero{
     width: 80%;
     max-width: 1200px;
@@ -74,6 +77,25 @@ ul li{
 }
 /* !flex utilities */
 
+/* #region column */
+.col_3{
+    width: calc((100/12)*3);
+}
+.col_4{
+    width: calc((100/12)*4);
+}
+.col_6{
+    width: calc((100/12)*6);
+}
+.col_8{
+    width: calc((100/12)*8);
+}
+.col_9{
+    width: calc((100/12)*9);
+}
+
+/* #enregion */
+
 /* #endregion */
 
 /* #region header */
@@ -100,7 +122,18 @@ header ul li{
 /* #endregion */
 
 /* #region hero */
-
-.bg_secodary{
+.hero{
+    padding: 2rem 0;
+}
+.bg_secondary{
     background: var(--var-babyblue)
+}
+
+.hero h1{
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.col_4>p, .col_4>div{   
+    padding: 1rem 0;
 }
