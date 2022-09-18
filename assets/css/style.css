@@ -41,6 +41,9 @@
 .menu {
   padding: 1rem 0;
 }
+img{
+  max-width: 100%;
+}
 a {
   text-decoration: none;
 }
@@ -302,3 +305,26 @@ li a,
 .col_9 h4{
     padding-bottom: 3.5rem;
 }
+
+/* #endregion plan */
+
+/* #region partner dropbox */
+
+.drop_partner{
+  margin-top: 4rem;
+}
+
+.btn_white{
+  border: 1px solid var(--var-darkgray);
+  color: var(--var-darkgray);
+}
+
+.partner_caption{
+  padding: 4rem 0 0 3rem;
+}
+
+.partner_caption p{
+  padding: 1rem 0 2rem 0;
+}
+
+
