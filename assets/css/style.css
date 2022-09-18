@@ -463,7 +463,7 @@ li a,
 /* #region Q&A */
 
 .question{
-  margin-top: 6rem;
+  margin-top: 4rem;
 }
 
 .border_tb{
@@ -512,3 +512,4 @@ padding: 3rem 0 ;
   padding: 1rem 0 5rem 0;
   color: var(--var-gray);
 }
+/* #endregion footer */
