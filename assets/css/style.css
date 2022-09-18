@@ -78,7 +78,9 @@ ul li {
 .wrap {
   flex-wrap: wrap;
 }
-
+.gap_1{
+  gap: 1rem;
+}
 .column {
   flex-direction: column;
 }
@@ -326,5 +328,19 @@ li a,
 .partner_caption p{
   padding: 1rem 0 2rem 0;
 }
+/* #endregion */
 
+/* #region dropbox_info */
+
+.dropbox_info{
+  margin-top: 6rem;
+}
+
+.title{
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+.subtitle {
+  padding-bottom: 1rem;
+}
 
