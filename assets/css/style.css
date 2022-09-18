@@ -65,6 +65,10 @@ ul li {
 .text_center {
   text-align: center;
 }
+.blue_underline{
+  text-decoration: underline;
+  color: var(--var-buy_now);
+}
 /* !flex utilities */
 
 .d_flex {
@@ -342,5 +346,18 @@ li a,
 }
 .subtitle {
   padding-bottom: 1rem;
+}
+/* #endregion dropbox_info */
+
+/* #region team*/
+
+.team{
+  margin-top: 6rem;
+}
+.team h2{
+  padding-right: 20rem;
+}
+.team a{
+  font-size: 0.9rem;
 }
 
