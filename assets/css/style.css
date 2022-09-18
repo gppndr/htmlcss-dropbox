@@ -33,7 +33,7 @@
   background: var(--var-babyblue);
 }
 
-.hero {
+.hero, .footer_container{
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
@@ -128,6 +128,9 @@ ul li {
 }
 .col_4 {
   width: calc((100% / 12) * 4);
+}
+.col_5{
+  width: calc(100%/12)*5;
 }
 .col_6 {
   width: calc((100% / 12) * 6);
@@ -476,3 +479,36 @@ padding: 3rem 0 ;
   padding: 0 2rem;
 }
 /* #endregion Q&A */
+
+/* #region footer */
+
+#site_footer{
+  margin-top: 6rem;
+  color: white;
+  background-color: black;
+}
+
+#site_footer a{
+  color: white;
+}
+.col_5{
+  padding-top: 6rem;
+}
+
+.col_5>*{
+  padding-bottom: 1.5rem;
+}
+
+.col_5  ul li{
+  padding-bottom: 1rem;
+}
+
+#site_footer .line{
+  margin-top:  5rem;
+  width: 8%;
+}
+
+.language{
+  padding: 1rem 0 5rem 0;
+  color: var(--var-gray);
+}
