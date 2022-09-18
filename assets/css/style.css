@@ -454,3 +454,25 @@ li a,
   background-color: white;
   color: black;
 }
+
+/* #endregion cta */
+
+/* #region Q&A */
+
+.question{
+  margin-top: 6rem;
+}
+
+.border_tb{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.question>*{
+padding: 3rem 0 ;
+}
+
+.question .col_12 i{
+  padding: 0 2rem;
+}
+/* #endregion Q&A */
