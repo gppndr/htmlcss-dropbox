@@ -7,6 +7,15 @@
   --var-buy_now: #1818ef;
   --var-gray: #d6d6d8;
   --var-darkgray: #66718a;
+  --var-lightblue: #b4d0e7;
+  --var-dropbox_company: #61082b;
+  --var-designit: #a2d39b;
+  --var-shadow_designit: #d1e9cd;
+  --var-uof: #0093ce;
+  --var-topss: #ff1c1c;
+  --var-lonelyplanet: #0d2481;
+  --var-clearchannel: #ffd830;
+  --var-section_center: #f5f5f5;
 }
 
 /* #region common rules */
@@ -41,7 +50,7 @@
 .menu {
   padding: 1rem 0;
 }
-img{
+img {
   max-width: 100%;
 }
 a {
@@ -65,7 +74,7 @@ ul li {
 .text_center {
   text-align: center;
 }
-.blue_underline{
+.blue_underline {
   text-decoration: underline;
   color: var(--var-buy_now);
 }
@@ -82,7 +91,7 @@ ul li {
 .wrap {
   flex-wrap: wrap;
 }
-.gap_1{
+.gap_1 {
   gap: 1rem;
 }
 .column {
@@ -215,7 +224,7 @@ header ul li {
 /* #endregion */
 
 /* #region plan */
-.border{
+.border {
   border: 0.1rem solid var(--var-gray);
 }
 .plan {
@@ -296,51 +305,51 @@ li a,
   padding-bottom: 2rem;
 }
 
-.custom_price{
-    margin-top: 3rem;
+.custom_price {
+  margin-top: 3rem;
 }
 
 .custom_price .row {
-    padding: 2rem;
+  padding: 2rem;
 }
 
-.col_9 h2{
-    padding-bottom: 1.5rem;
+.col_9 h2 {
+  padding-bottom: 1.5rem;
 }
 
-.col_9 h4{
-    padding-bottom: 3.5rem;
+.col_9 h4 {
+  padding-bottom: 3.5rem;
 }
 
 /* #endregion plan */
 
 /* #region partner dropbox */
 
-.drop_partner{
+.drop_partner {
   margin-top: 4rem;
 }
 
-.btn_white{
+.btn_white {
   border: 1px solid var(--var-darkgray);
   color: var(--var-darkgray);
 }
 
-.partner_caption{
+.partner_caption {
   padding: 4rem 0 0 3rem;
 }
 
-.partner_caption p{
+.partner_caption p {
   padding: 1rem 0 2rem 0;
 }
 /* #endregion */
 
 /* #region dropbox_info */
 
-.dropbox_info{
+.dropbox_info {
   margin-top: 6rem;
 }
 
-.title{
+.title {
   font-size: 2rem;
   padding-bottom: 2rem;
 }
@@ -350,14 +359,85 @@ li a,
 /* #endregion dropbox_info */
 
 /* #region team*/
-
-.team{
+.team {
   margin-top: 6rem;
 }
-.team h2{
+.team h2 {
   padding-right: 20rem;
 }
-.team a{
+.team a {
   font-size: 0.9rem;
 }
+/* #endregion */
 
+/* #region Brand */
+.brand {
+  margin-top: 6rem;
+}
+.brands {
+  width: calc(100% / 3);
+}
+.logo {
+  aspect-ratio: 1/1;
+  width: 50%;
+}
+.flex_start svg,
+.flex_end svg {
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(141deg)
+    brightness(109%) contrast(101%);
+  width: 40%;
+}
+
+.designit {
+  background-color: var(--var-designit);
+  box-shadow: inset 0 0 0 1rem var(--var-shadow_designit);
+}
+
+.asu {
+  background-color: var(--var-grape);
+}
+
+.uof {
+  background-color: var(--var-uof);
+}
+.uof svg {
+  width: 60%;
+}
+
+.topps,
+.wbr {
+  background-color: var(--var-topss);
+}
+
+.hearst {
+  background-color: var(--var-babyblue);
+}
+
+.lonely {
+  background-color: var(--var-lonelyplanet);
+}
+
+.clear_channel {
+  background-color: var(--var-clearchannel);
+}
+
+.bg_gray {
+  background-color: var(--var-section_center);
+  padding: 3rem;
+}
+
+.bg_gray svg {
+  width: 60%;
+}
+
+.bg_gray > * {
+  padding-bottom: 2rem;
+}
+
+.line{
+  width: 40%;
+  padding: 0;
+  margin: 0.5rem 0 2rem 0;
+}
+
+/* #endregion */
