@@ -8,7 +8,6 @@
   --var-gray: #d6d6d8;
   --var-darkgray: #66718a;
   --var-lightblue: #b4d0e7;
-  --var-dropbox_company: #61082b;
   --var-designit: #a2d39b;
   --var-shadow_designit: #d1e9cd;
   --var-uof: #0093ce;
@@ -441,3 +440,17 @@ li a,
 }
 
 /* #endregion */
+
+/* #region cta */
+.dropbox_cta{
+ padding: 4rem 0;
+}
+.cta{
+  flex-basis: 50%;
+  color: var(--var-grape);
+}
+
+.btn_cta{
+  background-color: white;
+  color: black;
+}
